@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pedidos Bar Exo</string>
+    <string name="borrar">Borrar</string>
+    <string name="envButton">Enviar</string>
+    <string name="addButton">Añadir</string>
+    <string name="configuraci_n">Configuración</string>
+    <string name="showAlcohol">Mostrar bebidas alcohólicas</string>
+    <string name="divisa">Moneda de pago</string>
+    <string name="euro">Euro (€)</string>
+    <string name="dolar">Dolar ($)</string>
+    <string name="btc">Bitcoin (BTC)</string>
+    <string name="impuesto">Impuesto a aplicar</string>
+    <string name="iva_21">IVA 21%</string>
+    <string name="igic_6">IGIC 6%</string>
+    <string name="pedidos">Pedidos:</string>
+    <string name="nomprod">Nombre</string>
+    <string name="precud">PrecioUD</string>
+    <string name="udprod">Unidades</string>
+    <string name="preciofinal">Preciofinal</string>
+    <string name="plus">+</string>
+    <string name="unity">1</string>
+    <string name="minus">-</string>
+</resources>
