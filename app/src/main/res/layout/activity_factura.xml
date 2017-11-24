@@ -60,25 +60,47 @@
             android:layout_height="30dp"
             >
 
-            <ImageView android:src="@mipmap/cola"
-                android:layout_weight="1"/>
+            <TextView
+                android:text="TipoImp"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                android:gravity="center" />
 
             <TextView
-                android:text="@string/nomprod"
-                android:layout_weight="2"
-                android:layout_gravity="center"/>
-
-            <TextView android:text="@string/precud"
+                android:text="1"
                 android:layout_weight="1"
-                android:layout_gravity="center"/>
+                android:gravity="right" />
 
-            <TextView android:text="@string/udprod"
+            <TextView
+                android:text="0.00"
                 android:layout_weight="1"
-                android:layout_gravity="center"/>
+                android:gravity="right" />
 
-            <TextView android:text="@string/preciofinal"
-                android:layout_gravity="center"/>
         </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="30dp">
+
+            <TextView
+                android:text="Total"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:text="1"
+                android:layout_weight="1"
+                android:gravity="right" />
+
+            <TextView
+                android:text="0.00"
+                android:layout_weight="1"
+                android:gravity="right" />
+
+            <TableRow></TableRow>
+        </TableRow>
+
     </TableLayout>
 
     <FrameLayout
