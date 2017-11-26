@@ -428,12 +428,6 @@
                         android:id="@+id/erase"
                         android:text="@string/borrar" />
 
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:background="@color/colorAccent"
-                        android:text="@string/envButton" />
 
                     <Button
                         android:id="@+id/addProduct"

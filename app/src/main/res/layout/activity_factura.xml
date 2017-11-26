@@ -22,30 +22,6 @@
         android:layout_below="@id/pedidostitle"
         >
 
-        <TableRow
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            >
-
-            <ImageView android:src="@mipmap/cola"
-                android:layout_weight="1"/>
-
-            <TextView
-                android:text="@string/nomprod"
-                android:layout_weight="2"
-                android:layout_gravity="center"/>
-
-            <TextView android:text="@string/precud"
-                android:layout_weight="1"
-                android:layout_gravity="center"/>
-
-            <TextView android:text="@string/udprod"
-                android:layout_weight="1"
-                android:layout_gravity="center"/>
-
-            <TextView android:text="@string/preciofinal"
-                android:layout_gravity="center"/>
-        </TableRow>
 
 
     </TableLayout>
@@ -67,14 +43,15 @@
                 android:gravity="center" />
 
             <TextView
-                android:text="1"
+                android:text="1%"
                 android:layout_weight="1"
                 android:gravity="right" />
 
             <TextView
                 android:text="0.00"
                 android:layout_weight="1"
-                android:gravity="right" />
+                android:gravity="right"
+                android:id="@+id/preciototunid" />
 
         </TableRow>
 
@@ -89,14 +66,16 @@
                 android:gravity="center" />
 
             <TextView
-                android:text="1"
+                android:id="@+id/totalunid"
+                android:text="0"
                 android:layout_weight="1"
                 android:gravity="right" />
 
             <TextView
                 android:text="0.00"
                 android:layout_weight="1"
-                android:gravity="right" />
+                android:gravity="right"
+                android:id="@+id/preciofin" />
 
             <TableRow></TableRow>
         </TableRow>
@@ -117,8 +96,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1
-"
+                android:layout_weight="1"
+                android:id="@+id/erase"
                 android:text="@string/borrar" />
 
             <Button
